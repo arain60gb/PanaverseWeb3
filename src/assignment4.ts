@@ -86,5 +86,18 @@ const largest_num = findLargestNumber(num_array);
 console.log(largest_num);
 
 
+// Write a program that uses a function to find the largest element in an array of numbers.
+function findLargestNumber(nums: number[]): number {
+    let largestNumber = nums[0];
 
-   
+    for (const nums of numbers) {
+        if (nums > largestNumber) {
+            largestNumber = nums;
+        }
+    }
+
+    return largestNumber;
+}
+const nums: number[] = [5, 2, 9, 1, 5, 6];
+const largestNumber = findLargestNumber(nums);
+console.log(`The largest number is: ${largestNumber}`);
